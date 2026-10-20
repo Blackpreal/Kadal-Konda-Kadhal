@@ -1,0 +1,56 @@
+{
+  "title": "TEMPLATE - copy this folder, rename, replace the sample lines",
+  "voices": {
+    "narrator": "Sulafat",
+    "maaran": "Algenib",
+    "nila": "Leda"
+  },
+  "voice_style": "Tamil storytelling, natural Chennai Tamil accent, emotional, unhurried",
+  "characters": {
+    "maaran": "characters/maaran_sheet.png",
+    "nila": "characters/nila_sheet.png"
+  },
+  "image_style": "Cinematic fantasy illustration, moody ocean light, rich teal and gold palette, consistent character faces from the attached reference sheet.",
+  "music": "",
+  "music_volume": 0.12,
+  "pause": 0.35,
+  "subtitles": { "size": 66, "margin_bottom": 430 },
+  "shots": [
+    {
+      "id": "01",
+      "speaker": "narrator",
+      "text": "அந்த இரவு கடல் அமைதியாக இல்லை.",
+      "style": "low, mysterious",
+      "characters": [],
+      "image_prompt": "Wide shot of a dark stormy sea at night, a lone wooden boat, lightning far away.",
+      "motion": "zoom_in"
+    },
+    {
+      "id": "02",
+      "speaker": "maaran",
+      "text": "யாரோ என் பெயரைக் கூப்பிடுகிறார்கள்...",
+      "style": "whispering, surprised",
+      "characters": ["maaran"],
+      "image_prompt": "Close-up of Maaran on the boat, wet hair, looking toward the waves in shock.",
+      "motion": "pan_right"
+    },
+    {
+      "id": "03",
+      "speaker": "nila",
+      "text": "மாறா, நான் உனக்காகவே காத்திருந்தேன்.",
+      "style": "soft, longing",
+      "characters": ["nila"],
+      "image_prompt": "Nila rising from glowing sea water, moonlight on her face, calm smile.",
+      "motion": "zoom_out"
+    },
+    {
+      "id": "04",
+      "speaker": "narrator",
+      "text": "அடுத்த பகுதியில்... கடல் கொண்ட காதல் தொடரும்.",
+      "style": "dramatic cliffhanger",
+      "characters": ["maaran", "nila"],
+      "image_prompt": "Maaran and Nila facing each other across the water, glowing waves between them.",
+      "motion": "static"
+    }
+  ]
+}

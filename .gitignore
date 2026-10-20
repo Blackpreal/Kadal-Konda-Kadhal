@@ -1,0 +1,3 @@
+.env
+shorts/*/out/
+__pycache__/
